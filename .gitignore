@@ -14,3 +14,11 @@
 
 # workflow
 !.github/**
+
+# rust
+!Cargo.toml
+!*.rs
+
+# always ignore
+
+/target
