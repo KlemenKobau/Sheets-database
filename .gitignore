@@ -1,0 +1,12 @@
+*
+
+!**/
+
+# git
+!.gitignore
+
+# docs
+!docs/**
+
+# workflow
+!.github/**
