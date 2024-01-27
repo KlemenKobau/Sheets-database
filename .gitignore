@@ -5,6 +5,9 @@
 # git
 !.gitignore
 
+# repo
+!README.md
+
 # docs
 !docs/**
 !mkdocs.yml
