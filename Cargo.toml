@@ -1,9 +1,13 @@
-[package]
-name = "sheets_database"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "sheets_database",
+    "sheets_database_derive",
+    "test_suite"
+]
+resolver = "2"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace.dependencies]
 google-sheets4 = "5.0.3+20230119"
+proc-macro2 = "1.0.78"
+quote = "1.0"
+syn = { version = "2.0.48", default-features = false }
