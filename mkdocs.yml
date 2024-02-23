@@ -1,9 +1,9 @@
 site_name: Test docs
-site_description: "A docs test"
-site_author: "Michael Hausenblas"
+site_description: ""
+site_author: "Klemen Kobau"
 docs_dir: docs/
-repo_name: "mhausenblas/mkdocs-template"
-repo_url: "https://github.com/mhausenblas/mkdocs-template"
+repo_name: "KlemenKobau/Sheets-database"
+repo_url: "https://github.com/KlemenKobau/Sheets-database"
 nav:
   - Home: index.md
 theme:
